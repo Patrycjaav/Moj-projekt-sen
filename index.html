@@ -3,78 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ćwicz Sen - Twoje narzędzie do lepszego odpoczynku</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-        }
-        .button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            margin: 10px;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
-        .card {
-            background-color: white;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-        }
-        .card h3 {
-            color: #333;
-        }
-    </style>
+    <title>Strona o Śnie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Ćwicz Sen - Twoje narzędzie do lepszego odpoczynku</h1>
+        <h1>Witaj na stronie o Śnie!</h1>
+        <p>Dowiedz się, jak poprawić jakość swojego snu i wprowadzić zdrowe nawyki.</p>
+        <nav>
+            <ul>
+                <li><a href="#about">O śnie</a></li>
+                <li><a href="#tips">Wskazówki</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section>
-        <button class="button">Zacznij ćwiczyć sen</button>
-        <button class="button">Plan snu</button>
-        <button class="button">Techniki relaksacyjne</button>
-        <button class="button">Moje postępy</button>
+    <section id="about" class="content">
+        <h2>O Śnie</h2>
+        <p>Sen jest niezbędny do regeneracji organizmu i zachowania zdrowia. Dowiedz się, jak ważny jest odpowiedni sen oraz jak jego brak wpływa na nasze codzienne życie.</p>
+        <img src="https://via.placeholder.com/400x200?text=Sen" alt="Sen" class="image">
     </section>
 
-    <section>
-        <div class="card">
-            <h3>Plan snu</h3>
-            <p>Stwórz swój własny plan snu, ustawiając godziny zasypiania i budzenia się. Monitoruj swoje nawyki i popraw jakość snu.</p>
-            <button class="button">Ustaw Plan</button>
-        </div>
-
-        <div class="card">
-            <h3>Techniki relaksacyjne</h3>
-            <p>Skorzystaj z technik relaksacyjnych, które pomogą Ci się zrelaksować przed snem. Naucz się medytacji, oddychania i progresywnej relaksacji mięśni.</p>
-            <button class="button">Spróbuj teraz</button>
-        </div>
-
-        <div class="card">
-            <h3>Monitorowanie snu</h3>
-            <p>Śledź swoje nawyki snu, zapisuj godziny zasypiania i budzenia się, a także analizuj jakość snu, aby poprawić swoje wyniki.</p>
-            <button class="button">Zacznij monitorować</button>
-        </div>
+    <section id="tips" class="content">
+        <h2>Wskazówki na Lepszy Sen</h2>
+        <p>Oto kilka wskazówek, które mogą pomóc Ci poprawić jakość snu:</p>
+        <ul>
+            <li>Ustal regularny czas kładzenia się spać.</li>
+            <li>Unikaj kofeiny przed snem.</li>
+            <li>Stwórz odpowiednie warunki do snu: ciemność, cisza, odpowiednia temperatura.</li>
+            <li>Stosuj techniki relaksacyjne, takie jak medytacja czy głębokie oddychanie.</li>
+        </ul>
+        <p>Spróbuj tych technik, aby poprawić jakość swojego odpoczynku!</p>
     </section>
+
+    <section id="contact" class="content">
+        <h2>Kontakt</h2>
+        <p>Chcesz dowiedzieć się więcej o śnie? Skontaktuj się ze mną:</p>
+        <a href="mailto:kontakt@sen-strona.com" class="button">Wyślij email</a>
+    </section>
+
+    <footer>
+        <p>Strona stworzona przez [Patrycja]</p>
+    </footer>
+
 </body>
-</html>
+</html>            
